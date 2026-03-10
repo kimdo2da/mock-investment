@@ -11,11 +11,11 @@ import org.json.JSONObject;
 @WebServlet("/getToken")
 public class TokenServlet extends HttpServlet {
 
-    private static final String APP_KEY = "PSlfLDqjGgbXdqXq6VSOAVq9bOsvWv0aUDvb";
-    private static final String APP_SECRET = "QqcWNsDq27m6N7YtbGRDAKdWpWhNOOuAxnm/rcMCkDR4e+g+Xvh5XsDE1UpNCryg9wsQutSKxTer4Uc4IblRQpsoLalT3+2D2e2AnQRnKUWx8RA24s3J1r9C4Jp8/plOnsn7UnMn1GpFBIpeAABJ7JvpLvrDkXtDmReu6UeK9X6Kuma1Bk0=";
+    private static final String APP_KEY = 
+    private static final String APP_SECRET = 
 
     private static final String TOKEN_URL =
-            "https://openapi.koreainvestment.com:9443/oauth2/tokenP";
+            
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
