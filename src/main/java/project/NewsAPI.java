@@ -17,7 +17,7 @@ import com.google.gson.JsonParser;
 public class NewsAPI {
 
     
-    private static final String API_KEY = "6f795bae08d3445da7f73f3be958362f";
+    private static final String API_KEY = 
 
     public static ArrayList<NewsDTO> getNews() {
 
